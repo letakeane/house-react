@@ -16,6 +16,12 @@ h1 {
   margin-top: 30vh;
 }
 
+.begin {
+  margin-top: 75px;
+  display: block;
+  font-weight: bold;
+}
+
 .scenario {
   margin: 15% auto 5% auto;
   width: 60%;

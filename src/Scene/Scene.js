@@ -4,10 +4,11 @@ import { Link } from "react-router-dom";
 const Scene = ({ story }) => {
   const option1 = story.options[0];
   const option2 = story.options[1];
+  const scenarioToDisplay = story.html.map((sentence, i) => <p key={`scenario${i}`}>{sentence}</p>)
 
   return (
     <section>
-      <div className="scenario" dangerouslySetInnerHTML={{__html:story.html}}></div>
+      <div className="scenario">{scenarioToDisplay}</div>
       <div className="options">
         <Link
           className="option1"
