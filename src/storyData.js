@@ -61,7 +61,7 @@ export const stories = [
   {
     id: "get-up",
     html:
-      ["Oops! This is a story in progress and the author hasn't finished it yet! Looks like you've hit a dead end.","Check back another time!"],
+      ["You flip on lights as you move through the house.", "Halls are empty. Rooms are quiet."],
     options: [
       { storyID: 'beginning', text: "Start over" },
       { storyID: 'beginning', text: "Start over" },
